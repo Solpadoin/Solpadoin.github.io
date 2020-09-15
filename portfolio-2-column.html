@@ -6,7 +6,7 @@
 <html lang="en">
     <!--<![endif]-->
     <head>
-        <!-- Title -->
+    <!-- Title -->
         <title>Система "Розумний дім"</title>
         <!-- Meta -->
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -65,7 +65,7 @@
                             <div class="visible-lg">
                                 <ul id="hornavmenu" class="nav navbar-nav">
                                     <li>
-                                        <a href="index.html" class="fa-home active">Головна</a>
+                                        <a href="index.html" class="fa-home ">Головна</a>
                                     </li>
 									<li>				
 									<span class="fa-users <br />
@@ -161,7 +161,7 @@
                                         </ul>
                                     </li>
                                     <li>
-										<a href="portfolio-2-column.html" class="fa-th ">Галерея</a>
+                                        <a href="portfolio-2-column.html" class="fa-th ">Галерея</a>
                                     </li>
                                     <li>
                                         <a href="contact.html" class="fa-comment ">Контакти</a>
@@ -190,148 +190,221 @@
             </div>
             <!-- End Top Menu -->
             <!-- === END HEADER === -->
-            <!-- === BEGIN CONTENT === -->	
-            <div id="slideshow" class="bottom-border-shadow">
-                <div class="container no-padding background-white bottom-border">
+            <!-- === BEGIN CONTENT === -->
+            <div id="content">
+                <div class="container background-white">
+                    <div class="row margin-vert-30">
+                        <div class="col-md-12">
+                            <h2>Галерея</h2>
+                            <!-- Filter Buttons -->
+                            <div class="portfolio-filter-container margin-top-20">
+                                <ul class="portfolio-filter">
+                                    <li class="portfolio-filter-label label label-primary">
+                                        Фільтр:
+                                    </li>
+                                    <li>
+                                        <a href="#" class="portfolio-selected btn btn-default" data-filter="*">Всі</a>
+                                    </li>
+                                    <li>
+                                        <a name="filter_xiaomi" href="#" class="btn btn-default" data-filter=".Xiaomi">Xiaomi</a>
+                                    </li>
+                                    <li>
+                                        <a name="filter_larnitech" href="#" class="btn btn-default" data-filter=".Larnitech">Larnitech</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="btn btn-default" data-filter=".LifeSmart">LifeSmart</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- End Filter Buttons -->
+                        </div>
+                    </div>
                     <div class="row">
-                        <!-- Carousel Slideshow -->
-                        <div id="carousel-example" class="carousel slide" data-ride="carousel">
-                            <!-- Carousel Indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-example" data-slide-to="1"></li>
-                                <li data-target="#carousel-example" data-slide-to="2"></li>
-                            </ol>
-                            <div class="clearfix"></div>
-                            <!-- End Carousel Indicators -->
-                            <!-- Carousel Images -->
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <img src="assets/img/slideshow/slide1.jpg">
+                        <div class="col-md-12 portfolio-group no-padding">
+                            <!-- Portfolio Item -->
+                           <!-- <div class="col-md-6 portfolio-item margin-bottom-40 filer-code">
+                                <div>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="assets/img/portfolio/image1.jpg" height="300" alt="image">
+                                            <figcaption>
+                                                <h3 class="margin-top-20"></h3>
+                                                <span></span>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
                                 </div>
-                                <div class="item">
-                                    <img src="assets/img/slideshow/slide2.jpg">
+                            </div>-->
+                            <!-- End Portfolio Item -->
+                            <!-- Portfolio Item -->
+                           <!-- <div class="col-md-6 portfolio-item margin-bottom-40">
+                                <div>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="assets/img/portfolio/image2.jpg" height="300" alt="image2">
+                                            <figcaption>
+                                                <h3 class="margin-top-20"></h3>
+                                                <span></span>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
                                 </div>
-                                <div class="item">
-                                    <img src="assets/img/slideshow/slide3.jpg">
-                                </div>
-                                <div class="item">
-                                    <img src="assets/img/slideshow/slide4.jpg">
+                            </div>-->
+                            <!-- End Portfolio Item -->
+							<!-- Portfolio Item -->
+                            <div class="col-md-6 portfolio-item margin-bottom-40 Xiaomi">
+                                <div>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="assets/img/portfolio/xiaomi.png" height="300" alt="xiaomipng">
+                                            <figcaption>
+                                                <h3 class="margin-top-20"></h3>
+                                                <span></span>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
                                 </div>
                             </div>
-                            <!-- End Carousel Images -->
-                            <!-- Carousel Controls -->
-                            <a class="left carousel-control" href="#carousel-example" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left color-green"></span>
-                            </a>
-                            <a class="right carousel-control" href="#carousel-example" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right color-green"></span>
-                            </a>
-                            <!-- End Carousel Controls -->
-                        </div>
-                        <!-- End Carousel Slideshow -->
-                    </div>
-                </div>
-            </div>
-            <div id="icons" class="bottom-border-shadow">
-                <div class="container background-grey bottom-border">
-                    <div class="row padding-vert-60">
-                        <!-- Icons -->
-                        <div class="col-md-4 text-center">
-                            <i class="fa-cogs fa-4x color-primary animate fadeIn"></i>
-                            <h2 class="padding-top-10 animate fadeInLeft">Налаштування</h2>
-                            <p class="animate fadeInLeft">Налаштуйте ваш пристрій під ваші власні потреби.</p>
-                        </div>
-                        <div class="col-md-4 text-center">
-                            <i class="fa-cloud-download fa-4x color-primary animate fadeIn"></i>
-                            <h2 class="padding-top-10 animate fadeIn">Оновлення</h2>
-                            <p class="animate fadeIn">Автоматичне оновлення мережею Wi-Fi. Більше не має потреби витрачати час та сили для оновлення пристрою.</p>
-                        </div>
-                        <div class="col-md-4 text-center">
-                            <i class="fa-bar-chart fa-4x color-primary animate fadeIn"></i>
-                            <h2 class="padding-top-10 animate fadeInRight">Спільнота</h2>
-                            <p class="animate fadeInRight">Завдяки відкритому вихідному коду забезпечується можливість створення чи використання особливих версій программного забезпечення.</p>
-                        </div>
-                        <!-- End Icons -->
-                    </div>
-                </div>
-            </div>
-            <div id="content" class="bottom-border-shadow">
-                <div class="container background-white bottom-border">
-                    <div class="row margin-vert-30">
-                        <!-- Main Text -->
-                        <div class="col-md-6">
-                            <h2 class="tick animate fadeInLeft">Коротко про головне...</h2>
-                            <p class="tick animate fadeInLeft">Ні для кого не секрет, що вдосконалення якості, зручності та збільшення продуктивності це саме той шлях, який ведеться людством з метою полегшити собі життя.</p>
-                            <p class="tick animate fadeInLeft">Саме прагнення автоматизувати всю роботу, що постійно однакова та повторюється, натхнуло на створення цілої категої товарів, у яких одна мета - виконання всієї роботи в один дотик.</p>
-							<p class="tick animate fadeInLeft">Ні для кого не є дивними такі пристрої як мультиварка, тостер, пральна машина чи чайник. Але от робот-пилосос на сьогоднішній день, не настільки популярний. Так само не популярні і дверні замки, що відкриваються по відбитку пальця.</p>
-							<p class="tick animate fadeInLeft">Наша мета - познайомити та популяризувати цілу низку необхідних та зручних пристроїв, які в цілому створюють систему "Розумний дім".</p>
-							<p class="tick animate fadeInLeft">Розумний дім - це дім, який дбає про ваш час та комфорт!</p>
-                        </div>
-                        <!-- End Main Text -->
-                        <div class="col-md-6">
-                            <h3 class="padding-vert-10 animate fadeInRight">Розумний дім - це</h3>
-                            <p></p>
-                            <ul class="tick animate fadeInRight">
-                                <li>Дизайн у мінімалістичному стилі</li>
-                                <li>Економія вашого часу</li>
-                                <li>У вашому домі завжди буде комфортно</li>
-                                <li>Можливість налаштувати все під себе</li>
-                                <li>Модульність ( кожен пристрій працює окремо )</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Portfolio -->
-            <div id="portfolio" class="bottom-border-shadow">
-                <div class="container bottom-border">
-                    <div class="row padding-top-40">
-                        <ul class="portfolio-group">
+                            <!-- End Portfolio Item -->
+							<!-- Portfolio Item -->
+                            <div class="col-md-6 portfolio-item margin-bottom-40 Xiaomi">
+                                <div>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="assets/img/portfolio/xiaomi.jpg" height="300" alt="xiaomijpg">
+                                            <figcaption>
+                                                <h3 class="margin-top-20"></h3>
+                                                <span></span>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- End Portfolio Item -->
+							<!-- Portfolio Item -->
+                            <div class="col-md-6 portfolio-item margin-bottom-40 Larnitech">
+                                <div>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="assets/img/portfolio/larnitech.png" height="300" alt="larnitech">
+                                            <figcaption>
+                                                <h3 class="margin-top-20"></h3>
+                                                <span></span>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- End Portfolio Item -->
+							<!-- Portfolio Item -->
+                            <div class="col-md-6 portfolio-item margin-bottom-40 Larnitech">
+                                <div>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="assets/img/portfolio/logo-larnitech.png" height="300" alt="larnitech-logo">
+                                            <figcaption>
+                                                <h3 class="margin-top-20"></h3>
+                                                <span></span>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- End Portfolio Item -->
                             <!-- Portfolio Item -->
-                            <li class="portfolio-item col-sm-4 col-xs-6 margin-bottom-40">
-                                <a href="#">
-                                    <figure class="animate fadeInLeft">
-                                        <img alt="image1" src="assets/img/frontpage/image1.jpg">
-                                        <figcaption>
-                                            <h3>Xiaomi</h3>
-                                            <span>Китайська корпорація, заснована у 2010 році. Славиться демократичною ціновою політикою, оскільки за середню ціну ви отримаєте якісний продукт. </span>
-                                        </figcaption>
-                                    </figure>
-                                </a>
-                            </li>
-                            <!-- //Portfolio Item// -->
+                            <!--<div class="col-md-6 portfolio-item margin-bottom-40 video">
+                                <div>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="assets/img/portfolio/image3.jpg" height="300" alt="image3">
+                                            <figcaption>
+                                                <h3 class="margin-top-20"></h3>
+                                                <span></span>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </div>
+                            </div>-->
+                            <!-- End Portfolio Item -->
                             <!-- Portfolio Item -->
-                            <li class="portfolio-item col-sm-4 col-xs-6 margin-bottom-40">
-                                <a href="#">
-                                    <figure class="animate fadeIn">
-                                        <img alt="image2" src="assets/img/frontpage/image2.png">
-                                        <figcaption>
-                                            <h3>LifeSmart</h3>
-                                            <span></span>
-                                        </figcaption>
-                                    </figure>
-                                </a>
-                            </li>
-                            <!-- //Portfolio Item// -->
+                            <!--<div class="col-md-6 portfolio-item margin-bottom-40 design">
+                                <div>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="assets/img/portfolio/image4.jpg" height="300" alt="image4">
+                                            <figcaption>
+                                                <h3 class="margin-top-20"></h3>
+                                                <span></span>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </div>
+                            </div> -->
+                            <!-- End Portfolio Item -->
                             <!-- Portfolio Item -->
-                            <li class="portfolio-item col-sm-4 col-xs-6 margin-bottom-40">
-                                <a href="#">
-                                    <figure class="animate fadeInRight">
-                                        <img alt="image3" src="assets/img/frontpage/image3.png">
-                                        <figcaption>
-                                            <h3>Larnitech</h3>
-                                            <span>Спеціалізація на професійних системах розумного дому.</span>
-                                        </figcaption>
-                                    </figure>
-                                </a>
-                            </li>
-                            <!-- //Portfolio Item// -->
-                        </ul>
+                            <!--<div class="col-md-6 portfolio-item margin-bottom-40 audio">
+                                <div>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="assets/img/portfolio/image5.jpg" height="300" alt="image5">
+                                            <figcaption>
+                                                <h3 class="margin-top-20"></h3>
+                                                <span></span>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </div>
+                            </div> -->
+                            <!-- End Portfolio Item -->
+                            <!-- Portfolio Item -->
+                           <!-- <div class="col-md-6 portfolio-item margin-bottom-40 design">
+                                <div>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="assets/img/portfolio/image6.jpg" height="300" alt="image6">
+                                            <figcaption>
+                                                <h3 class="margin-top-20"></h3>
+                                                <span></span>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </div>
+                            </div> -->
+                            <!-- End Portfolio Item -->
+                            <!-- Portfolio Item -->
+                            <!--<div class="col-md-6 portfolio-item margin-bottom-40 audio">
+                                <div>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="assets/img/portfolio/image7.jpg" height="300" alt="image7">
+                                            <figcaption>
+                                                <h3 class="margin-top-20"></h3>
+                                                <span></span>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </div>
+                            </div> -->
+                            <!-- End Portfolio Item -->
+                            <!-- Portfolio Item -->
+                            <!--<div class="col-md-6 portfolio-item margin-bottom-40 video">
+                                <div>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="assets/img/portfolio/image8.jpg" height="300" alt="image8">
+                                            <figcaption>
+                                                <h3 class="margin-top-20"></h3>
+                                                <span></span>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </div>
+                            </div> -->
+                            <!-- End Portfolio Item -->
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- End Portfolio -->
             <!-- === END CONTENT === -->
             <!-- === BEGIN FOOTER === -->
             <div id="base">

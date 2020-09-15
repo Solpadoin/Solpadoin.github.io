@@ -57,7 +57,7 @@
                 </div>
             </div>
             <!-- End Header -->
-            <!-- Top Menu -->
+                   <!-- Top Menu -->
             <div id="hornav" class="bottom-border-shadow">
                 <div class="container no-padding border-bottom">
                     <div class="row">
@@ -65,7 +65,7 @@
                             <div class="visible-lg">
                                 <ul id="hornavmenu" class="nav navbar-nav">
                                     <li>
-                                        <a href="index.html" class="fa-home active">Головна</a>
+                                        <a href="index.html" class="fa-home ">Головна</a>
                                     </li>
 									<li>				
 									<span class="fa-users <br />
@@ -161,10 +161,10 @@
                                         </ul>
                                     </li>
                                     <li>
-										<a href="portfolio-2-column.html" class="fa-th ">Галерея</a>
+                                        <a href="portfolio-2-column.html" class="fa-th ">Галерея</a>
                                     </li>
                                     <li>
-                                        <a href="contact.html" class="fa-comment ">Контакти</a>
+                                        <a href="contact.html" class="fa-comment active">Контакти</a>
                                     </li>
                                 </ul>
                             </div>
@@ -190,150 +190,134 @@
             </div>
             <!-- End Top Menu -->
             <!-- === END HEADER === -->
-            <!-- === BEGIN CONTENT === -->	
-            <div id="slideshow" class="bottom-border-shadow">
-                <div class="container no-padding background-white bottom-border">
-                    <div class="row">
-                        <!-- Carousel Slideshow -->
-                        <div id="carousel-example" class="carousel slide" data-ride="carousel">
-                            <!-- Carousel Indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-example" data-slide-to="1"></li>
-                                <li data-target="#carousel-example" data-slide-to="2"></li>
-                            </ol>
-                            <div class="clearfix"></div>
-                            <!-- End Carousel Indicators -->
-                            <!-- Carousel Images -->
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <img src="assets/img/slideshow/slide1.jpg">
+            <!-- === BEGIN CONTENT === -->
+            <div id="content">
+                <div class="container background-white">
+                    <div class="row margin-vert-30">
+                        <!-- Main Column -->
+                        <div class="col-md-9">
+                            <!-- Main Content -->
+                            <div class="headline">
+                                <h2>Зв'язатись з нами</h2>
+                            </div>
+                            <p>Якщо у вас виникли певні побажання чи запитання, ви можете скористатись формою нижче. Введіть ваше ім'я, поштову скриньку та ваше повідомлення.</p>
+                            <br>
+                            <!-- Contact Form -->
+                            <form>
+                                <label>Ім'я</label>
+                                <div class="row margin-bottom-20">
+                                    <div class="col-md-6 col-md-offset-0">
+                                        <input name="username" class="form-control" type="text">
+                                    </div>
                                 </div>
-                                <div class="item">
-                                    <img src="assets/img/slideshow/slide2.jpg">
+                                <label>Поштова скринька
+                                    <span class="color-red">*</span>
+                                </label>
+                                <div class="row margin-bottom-20">
+                                    <div class="col-md-6 col-md-offset-0">
+                                        <input name="email" class="form-control" type="text">
+                                    </div>
                                 </div>
-                                <div class="item">
-                                    <img src="assets/img/slideshow/slide3.jpg">
+                                <label>Ваше повідомлення</label>
+                                <div class="row margin-bottom-20">
+                                    <div class="col-md-8 col-md-offset-0">
+                                        <textarea name="message" rows="8" class="form-control"></textarea>
+                                    </div>
                                 </div>
-                                <div class="item">
-                                    <img src="assets/img/slideshow/slide4.jpg">
+                                <p>
+                                    <button name="button1" type="submit" class="btn btn-primary">Надіслати</button>
+                                </p>
+                            </form>
+                            <!-- End Contact Form -->
+                            <!-- End Main Content -->
+                        </div>
+                        <!-- End Main Column -->
+                        <!-- Side Column -->
+                        <div class="col-md-3">
+                            <!-- Recent Posts -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Контактна інформація</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <p></p>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <i class="fa-phone color-primary"></i>+380976628005</li>
+                                        <li>
+                                            <i class="fa-envelope color-primary"></i>info@homesmrt.com</li>
+                                        <li>
+                                            <i class="fa-home color-primary"></i>вул. Петра Косюбри 16\21</li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <strong class="color-primary">Будні:</strong> з 10:00 до 19:00 </li>
+                                        <li>
+                                            <strong class="color-primary">Субота:</strong> з 12:00 до 18:00 </li>
+                                        <li>
+                                            <strong class="color-primary">Неділя:</strong> Вихідний </li>
+                                    </ul>
                                 </div>
                             </div>
-                            <!-- End Carousel Images -->
-                            <!-- Carousel Controls -->
-                            <a class="left carousel-control" href="#carousel-example" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left color-green"></span>
-                            </a>
-                            <a class="right carousel-control" href="#carousel-example" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right color-green"></span>
-                            </a>
-                            <!-- End Carousel Controls -->
+                            <!-- End recent Posts -->
+                            <!-- About -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Інше</h3>
+                                </div>
+                                <div class="panel-body">
+                                   Якщо зворотнє повідомлення не надійшло вам у межах 14 календарних днів після відправки вашого листа, будь-ласка, переконайтесь, що відповідь не знаходиться у папці 'Спам'
+                                </div>
+                            </div>
+                            <!-- End About -->
+							
+							<div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Карта</h3>
+                                </div>
+                                <div id="map" class="panel-body" style="height: 300px;">
+								<!-- <div id="map" style="width: 300px; height: 300px;"></div> -->
+								<script>	
+								var longitude_sc = 31.0;
+								var latitude_sc = 50.4397824;
+								
+                                  function ProjectMapPoint() {
+										if (navigator.geolocation) {
+											navigator.geolocation.getCurrentPosition(showPosition);
+										}
+									
+										var mapOptions = {
+											center: new google.maps.LatLng(latitude_sc, longitude_sc),
+											zoom: 10,
+											mapTypeId: google.maps.MapTypeId.HYBRID
+										}
+										var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+								}
+									
+								function showPosition(position) {
+									latitude_sc  = position.coords.latitude; 
+									longitude_sc = position.coords.longitude;
+									
+									var mapOptions = {
+											center: new google.maps.LatLng(latitude_sc, longitude_sc),
+											zoom: 10,
+											mapTypeId: google.maps.MapTypeId.HYBRID
+										}
+									var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+								}
+								
+								</script>		
+								<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzoINXmQwEBWphenKz_HcVWyLyTsiwWFE&callback=ProjectMapPoint"
+								type="text/javascript"></script>
+                                </div>
+                            </div>
                         </div>
-                        <!-- End Carousel Slideshow -->
+                        <!-- End Side Column -->
                     </div>
                 </div>
             </div>
-            <div id="icons" class="bottom-border-shadow">
-                <div class="container background-grey bottom-border">
-                    <div class="row padding-vert-60">
-                        <!-- Icons -->
-                        <div class="col-md-4 text-center">
-                            <i class="fa-cogs fa-4x color-primary animate fadeIn"></i>
-                            <h2 class="padding-top-10 animate fadeInLeft">Налаштування</h2>
-                            <p class="animate fadeInLeft">Налаштуйте ваш пристрій під ваші власні потреби.</p>
-                        </div>
-                        <div class="col-md-4 text-center">
-                            <i class="fa-cloud-download fa-4x color-primary animate fadeIn"></i>
-                            <h2 class="padding-top-10 animate fadeIn">Оновлення</h2>
-                            <p class="animate fadeIn">Автоматичне оновлення мережею Wi-Fi. Більше не має потреби витрачати час та сили для оновлення пристрою.</p>
-                        </div>
-                        <div class="col-md-4 text-center">
-                            <i class="fa-bar-chart fa-4x color-primary animate fadeIn"></i>
-                            <h2 class="padding-top-10 animate fadeInRight">Спільнота</h2>
-                            <p class="animate fadeInRight">Завдяки відкритому вихідному коду забезпечується можливість створення чи використання особливих версій программного забезпечення.</p>
-                        </div>
-                        <!-- End Icons -->
-                    </div>
-                </div>
-            </div>
-            <div id="content" class="bottom-border-shadow">
-                <div class="container background-white bottom-border">
-                    <div class="row margin-vert-30">
-                        <!-- Main Text -->
-                        <div class="col-md-6">
-                            <h2 class="tick animate fadeInLeft">Коротко про головне...</h2>
-                            <p class="tick animate fadeInLeft">Ні для кого не секрет, що вдосконалення якості, зручності та збільшення продуктивності це саме той шлях, який ведеться людством з метою полегшити собі життя.</p>
-                            <p class="tick animate fadeInLeft">Саме прагнення автоматизувати всю роботу, що постійно однакова та повторюється, натхнуло на створення цілої категої товарів, у яких одна мета - виконання всієї роботи в один дотик.</p>
-							<p class="tick animate fadeInLeft">Ні для кого не є дивними такі пристрої як мультиварка, тостер, пральна машина чи чайник. Але от робот-пилосос на сьогоднішній день, не настільки популярний. Так само не популярні і дверні замки, що відкриваються по відбитку пальця.</p>
-							<p class="tick animate fadeInLeft">Наша мета - познайомити та популяризувати цілу низку необхідних та зручних пристроїв, які в цілому створюють систему "Розумний дім".</p>
-							<p class="tick animate fadeInLeft">Розумний дім - це дім, який дбає про ваш час та комфорт!</p>
-                        </div>
-                        <!-- End Main Text -->
-                        <div class="col-md-6">
-                            <h3 class="padding-vert-10 animate fadeInRight">Розумний дім - це</h3>
-                            <p></p>
-                            <ul class="tick animate fadeInRight">
-                                <li>Дизайн у мінімалістичному стилі</li>
-                                <li>Економія вашого часу</li>
-                                <li>У вашому домі завжди буде комфортно</li>
-                                <li>Можливість налаштувати все під себе</li>
-                                <li>Модульність ( кожен пристрій працює окремо )</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Portfolio -->
-            <div id="portfolio" class="bottom-border-shadow">
-                <div class="container bottom-border">
-                    <div class="row padding-top-40">
-                        <ul class="portfolio-group">
-                            <!-- Portfolio Item -->
-                            <li class="portfolio-item col-sm-4 col-xs-6 margin-bottom-40">
-                                <a href="#">
-                                    <figure class="animate fadeInLeft">
-                                        <img alt="image1" src="assets/img/frontpage/image1.jpg">
-                                        <figcaption>
-                                            <h3>Xiaomi</h3>
-                                            <span>Китайська корпорація, заснована у 2010 році. Славиться демократичною ціновою політикою, оскільки за середню ціну ви отримаєте якісний продукт. </span>
-                                        </figcaption>
-                                    </figure>
-                                </a>
-                            </li>
-                            <!-- //Portfolio Item// -->
-                            <!-- Portfolio Item -->
-                            <li class="portfolio-item col-sm-4 col-xs-6 margin-bottom-40">
-                                <a href="#">
-                                    <figure class="animate fadeIn">
-                                        <img alt="image2" src="assets/img/frontpage/image2.png">
-                                        <figcaption>
-                                            <h3>LifeSmart</h3>
-                                            <span></span>
-                                        </figcaption>
-                                    </figure>
-                                </a>
-                            </li>
-                            <!-- //Portfolio Item// -->
-                            <!-- Portfolio Item -->
-                            <li class="portfolio-item col-sm-4 col-xs-6 margin-bottom-40">
-                                <a href="#">
-                                    <figure class="animate fadeInRight">
-                                        <img alt="image3" src="assets/img/frontpage/image3.png">
-                                        <figcaption>
-                                            <h3>Larnitech</h3>
-                                            <span>Спеціалізація на професійних системах розумного дому.</span>
-                                        </figcaption>
-                                    </figure>
-                                </a>
-                            </li>
-                            <!-- //Portfolio Item// -->
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- End Portfolio -->
             <!-- === END CONTENT === -->
-            <!-- === BEGIN FOOTER === -->
+                <!-- === BEGIN FOOTER === -->
             <div id="base">
                 <div class="container bottom-border padding-vert-30">
                     <div class="row">
@@ -366,8 +350,7 @@
                             <div class="clearfix"></div>
                         </div>
                         <!-- End Sample Menu -->
-						
-						
+							
                         <!-- Contact Details -->
                         <div class="col-md-4 margin-bottom-20">
                             <h3 class="margin-bottom-10">Контактна інформація</h3>
